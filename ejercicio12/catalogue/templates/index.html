@@ -1,0 +1,14 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+
+<h1>Film Catalogue Home</h1>
+<p>Welcome to FilmCatalogue, a very basic Django website develped as tutorial example.</p>
+
+<h2>Dynamic content</h2>
+<ul>
+    <li><strong>Number of Films:</strong> {{num_films}}</li>
+    <li><strong>Directors:</strong> {{num_directors}}</li>
+</ul>
+
+{% endblock %}
